@@ -1,4 +1,10 @@
+import React from "react";
+import Specials from "./Specials"
 function Main() {
-    return <main></main>
+    return (
+      <main className="main-content">
+        <Specials />
+      </main>
+    );
 }
 export default Main;
